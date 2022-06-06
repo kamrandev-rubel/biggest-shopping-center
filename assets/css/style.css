@@ -449,3 +449,9 @@ h3>a {
 .service-item-icon img {
     margin-inline: auto;
 }
+
+.service-item-title {
+    color: var(--eerie-black);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-600);
+}
