@@ -916,3 +916,66 @@ h3>a {
     align-items: center;
     gap: 15px;
 }
+
+
+
+/*-----------------------------------*\
+ * #MEDIA QUARIES
+\*-----------------------------------*/
+
+/**
+* Responsive larger than 480px screen
+*/
+
+@media (min-width: 480px) {
+    /**
+    * CUSTOM PROOERTY
+    */
+
+
+    :root {
+
+        /**
+        * Typography
+        */
+
+        --fs-1: 3rem;
+        --fs-2: 2rem;
+    }
+
+
+
+    /**
+    * CATEGORY
+    */
+
+    .category-list>li {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /**
+    * PRODUCT
+    */
+
+    .product-list>li {
+        width: calc(50% - 15px);
+    }
+
+    /**
+    * FOOTER
+    */
+
+    .footer-brand {
+        width: 100%;
+    }
+
+    .footer-text {
+        max-width: 470px;
+    }
+
+    .footer-list {
+        width: calc(50% - 20px);
+    }
+}
